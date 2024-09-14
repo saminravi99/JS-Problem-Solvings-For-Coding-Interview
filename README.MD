@@ -106,26 +106,7 @@ removeDuplicates([1, 2, 2, 3, 4, 4, 5]); // Output: [1, 2, 3, 4, 5]
 - The function should handle arrays with all unique elements.
 - The function should work with arrays containing different types of duplicates.
 
----
-
-### 7. Find the Second Largest Number in an Array
-
-**Description**: Write a function that takes an array and returns the second largest number in the array.
-
-**Example**:
-
-```jsx
-findSecondLargest([1, 5, 2, 3, 4]); // Output: 4
-```
-
-**Requirements**:
-
-- The function should handle arrays with less than two distinct numbers.
-- The function should work with arrays containing duplicate numbers.
-
----
-
-### 8. Flatten a Nested Array
+### 7. Flatten a Nested Array
 
 **Description**: Write a function that takes a nested array and returns a new array with all sub-array elements concatenated into it recursively.
 
@@ -139,20 +120,3 @@ flattenArray([1, [2, [3, 4], 5]]); // Output: [1, 2, 3, 4, 5]
 
 - The function should handle arrays with various levels of nesting.
 - The function should handle arrays with mixed types of elements.
-
----
-
-### 9. Rotate an Array
-
-**Description**: Write a function that rotates an array `k` times. Each rotation moves the last element of the array to the front.
-
-**Example**:
-
-```jsx
-rotateArray([1, 2, 3, 4, 5], 2); // Output: [4, 5, 1, 2, 3]
-```
-
-**Requirements**:
-
-- The function should handle cases where `k` is greater than the length of the array.
-- The function should handle empty arrays.
