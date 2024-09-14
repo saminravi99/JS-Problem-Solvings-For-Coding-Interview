@@ -14,14 +14,6 @@ This document provides a list of JavaScript coding interview problems to help yo
 
 ```jsx
 reverseString("hello"); // Output: "olleh"
-
-```
-
-**Function Signature**:
-
-```jsx
-function reverseString(str: string): string
-
 ```
 
 **Requirements**:
@@ -39,14 +31,6 @@ function reverseString(str: string): string
 
 ```jsx
 countVowels("hello world"); // Output: 3
-
-```
-
-**Function Signature**:
-
-```jsx
-function countVowels(str: string): number
-
 ```
 
 **Requirements**:
@@ -64,14 +48,6 @@ function countVowels(str: string): number
 
 ```jsx
 capitalizeWords("hello world"); // Output: "Hello World"
-
-```
-
-**Function Signature**:
-
-```jsx
-function capitalizeWords(str: string): string
-
 ```
 
 **Requirements**:
@@ -89,14 +65,6 @@ function capitalizeWords(str: string): string
 
 ```jsx
 sumOfDigits(1234); // Output: 10 (1 + 2 + 3 + 4)
-
-```
-
-**Function Signature**:
-
-```jsx
-function sumOfDigits(num: number): number
-
 ```
 
 **Requirements**:
@@ -114,14 +82,6 @@ function sumOfDigits(num: number): number
 
 ```jsx
 findLargest([1, 5, 3, 9, 2]); // Output: 9
-
-```
-
-**Function Signature**:
-
-```jsx
-function findLargest(arr: number[]): number
-
 ```
 
 **Requirements**:
@@ -139,14 +99,6 @@ function findLargest(arr: number[]): number
 
 ```jsx
 removeDuplicates([1, 2, 2, 3, 4, 4, 5]); // Output: [1, 2, 3, 4, 5]
-
-```
-
-**Function Signature**:
-
-```jsx
-function removeDuplicates(arr: number[]): number[]
-
 ```
 
 **Requirements**:
@@ -164,14 +116,6 @@ function removeDuplicates(arr: number[]): number[]
 
 ```jsx
 findSecondLargest([1, 5, 2, 3, 4]); // Output: 4
-
-```
-
-**Function Signature**:
-
-```jsx
-function findSecondLargest(arr: number[]): number
-
 ```
 
 **Requirements**:
@@ -189,14 +133,6 @@ function findSecondLargest(arr: number[]): number
 
 ```jsx
 flattenArray([1, [2, [3, 4], 5]]); // Output: [1, 2, 3, 4, 5]
-
-```
-
-**Function Signature**:
-
-```jsx
-function flattenArray(arr: any[]): any[]
-
 ```
 
 **Requirements**:
@@ -214,14 +150,6 @@ function flattenArray(arr: any[]): any[]
 
 ```jsx
 rotateArray([1, 2, 3, 4, 5], 2); // Output: [4, 5, 1, 2, 3]
-
-```
-
-**Function Signature**:
-
-```jsx
-function rotateArray(arr: number[], k: number): number[]
-
 ```
 
 **Requirements**:
